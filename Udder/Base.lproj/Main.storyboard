@@ -29,8 +29,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="milk" translatesAutoresizingMaskIntoConstraints="NO" id="xc4-8X-ePa">
+                                <rect key="frame" x="0.0" y="362" width="375" height="305"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="yrq-Mv-k2e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D8w-Oj-gXu"/>
                             <constraint firstItem="osr-WD-huK" firstAttribute="top" secondItem="yrq-Mv-k2e" secondAttribute="bottom" constant="14" id="Uyu-Ce-Mh7"/>
@@ -43,6 +47,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="128.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="milk" width="260" height="347"/>
+    </resources>
 </document>
